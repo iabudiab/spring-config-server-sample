@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server-sample
+  profiles:
+    active:
+      - native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:/tmp/config-sample
+    bus:
+      id: config-server-sample-1
+
+server:
+  port: 2000
