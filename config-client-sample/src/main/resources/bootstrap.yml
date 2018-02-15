@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: config-client-sample
+  cloud:
+    config:
+       uri: http://localhost:2000
+
+server:
+  port: 3000
